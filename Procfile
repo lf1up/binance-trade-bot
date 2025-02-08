@@ -1,1 +1,1 @@
-web: python backtest.py
+web: sh -c "python backtest.py & python dummy_server.py"
